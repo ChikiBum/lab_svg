@@ -1,0 +1,409 @@
+* {
+box-sizing: border-box;
+}
+
+.ba-cont_width {
+    width: 56.4375rem;
+    margin: auto;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.ba-header {
+    display: block;
+    background-color: #c1c1c1;
+    background-image: url(../image/hero-bg.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 67.0625rem;
+    }
+
+.ba-header__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 17.8125rem;
+    padding-bottom: 7.125rem;
+}
+
+.ba-header__logo {
+height: 4.375rem;
+width: 4.38rem;
+border: transparent;
+}
+
+.ba-header__textwidth {
+    width: 38.875rem;
+    text-align: center;
+}
+
+.ba-header__title {
+    margin-top: 6rem;
+    margin-bottom: 3.375rem;
+    font-size: 3.375rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: .1852em;
+    line-height: 1.2em;
+}
+
+.ba-header__info {
+    font-size: .9375rem;
+    text-transform: uppercase;
+    color: white;
+    line-height: 1.933em;
+    margin-bottom: 15.125rem;
+}
+
+.ba-header__logo2 {
+    height: 2.3125rem;
+    width: 1.4375rem;
+    border: transparent;
+    }
+
+/* About Start */
+
+.ba-about__container {
+    position: relative;
+    border: 2px solid black;
+    border-top: transparent;
+    margin-top: 10.0625rem;
+    margin-bottom: 10.0625rem;
+    padding-top: 4.625rem;
+}
+
+.ba-about__title {
+    position: absolute;
+    left: 38%;
+    top: 10px;
+    transform: translateY(-150%);
+    font-size: 2.125rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #3c3c3c;
+    text-align:  center;
+    line-height: 1.2;
+    letter-spacing: .2941em;
+}
+
+.ba-about__article  {
+    display: block;
+    font-size: 1rem;
+    text-align:  center;
+    margin: 0 10.815rem 2rem 10.815rem;
+    line-height: 1.5em; 
+}
+
+.ba-about__article2  {
+    display: block;
+    font-size: 1rem;
+    text-align:  center;
+    margin-bottom: 1.75rem;
+    line-height: 1.5em;  
+}
+
+.ba-about__container::before, .ba-about__container::after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 2px;
+    top: 0;
+    background-color: #3c3c3c;
+}
+
+.ba-about__container::before {
+    left:0;
+}
+
+.ba-about__container::after {
+    right: 0;
+}
+
+/* About End */
+  
+ /* Serices Start */
+
+ .ba-serices {
+    background-color: #c1c1c1;
+    background-image: url(../image/services.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30.5rem;
+    padding-top: 10.0625rem;
+    padding-bottom: 10.0625rem;
+     }
+
+.ba-serices__container {
+    position: relative;
+    border: 2px solid white;
+    border-top: transparent;
+    padding-top: 4.625rem;
+}
+
+.ba-serices__title {
+    position: absolute;
+    left: 38%;
+    top: 10px;
+    transform: translateY(-150%);
+    font-size: 2.125rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    text-align:  center;
+    line-height: 1.2;
+    letter-spacing: .2941em;
+}
+
+.ba-serices__article  {
+    display: block;
+    font-size: 1rem;
+    text-align:  center;
+    margin: 0 10.815rem 2rem 10.815rem;
+    line-height: 1.2em; 
+    color: white;
+}
+
+.ba-serices__container::before, .ba-serices__container::after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 2px;
+    top: 0;
+    background-color: white;
+}
+
+.ba-serices__container::before {
+    left:0;
+}
+
+.ba-serices__container::after {
+    right: 0;
+}
+
+/* Serices End */ 
+
+/* What We DO Start */
+
+.ba-whatWeDo {
+    padding-top: 10.0625rem;
+    padding-bottom: 10.0625rem;
+     }
+
+.ba-whatWeDo__container {
+    position: relative;
+    border: 2px solid #3c3c3c;
+    border-top: transparent;
+    padding-top: 7.6875rem;
+    text-align: center;
+}
+
+.ba-whatWeDo__title {
+    position: absolute;
+    left: 33.5%;
+    top: 10px;
+    transform: translateY(-150%);
+    font-size: 2.125rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align:  center;
+    line-height: 1.2;
+    letter-spacing: .2647em;
+    color: #3c3c3c;
+}
+
+.ba-whatWeDo__logo {
+    height: 4.375rem;
+    width: 4.98rem;
+    margin-bottom: 2.5rem;
+}
+
+.ba-whatWeDo__h3 {
+    display: block;
+    font-size: 1.25rem;
+    text-align:  center;
+    margin: 0 10.815rem 2rem 10.815rem;
+    letter-spacing: .35em;
+}
+
+.ba-whatWeDo__article  {
+    display: block;
+    font-size: .875rem;
+    text-align:  center;
+    margin: 0 10.815rem 6.875rem 10.815rem;
+    line-height: 1.849em; 
+    color: #3c3c3c;
+}
+
+.ba-whatWeDo__container::before, .ba-whatWeDo__container::after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 2px;
+    top: 0;
+    background-color: #3c3c3c;
+}
+
+.ba-whatWeDo__container::before {
+    left:0;
+}
+
+.ba-whatWeDo__container::after {
+    right: 0;
+}
+
+/* Serices End */ 
+
+/*  Picture  Start*/
+.ba-picture__row {
+    display: flex;
+    min-width: 56.4375rem;
+}
+
+
+.ba-picture_withOut {
+    display: block;
+    width: 28.48%;
+    height: 14.8125rem;
+    background-color: transparent;
+    border: 0;
+}
+
+.ba-picture_center{
+    display: block;
+    width: 43.04%;
+    height: 14.8125rem;
+    background-color: transparent;
+    border: 0;
+    padding: 0 .75rem 0 .75rem ;
+}
+
+.ba-picture__size {
+ width:100%;
+ height: 100%;
+}
+
+.ba-picture__position{
+    position: relative;
+}
+
+.ba-picture__row:first-child
+{
+    padding-bottom: .5625rem;
+    height: 350px;
+}
+
+.ba-picture__h3{
+    position: absolute;
+    top:48%;
+    left:10%;
+    color: white;
+    font-size: 2.125rem;
+    text-transform: uppercase;
+    letter-spacing: .3235em;
+}
+/*  Picture  end*/
+
+/* Contact Start */
+
+.ba-contact__container {
+    position: relative;
+    border: 2px solid black;
+    border-top: transparent;
+    margin-top: 10.0625rem;
+    margin-bottom: 10.0625rem;
+    padding-top: 4.625rem;
+    text-align: center;
+}
+
+.ba-contact__container::before, .ba-contact__container::after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 2px;
+    top: 0;
+    background-color: #3c3c3c;
+}
+
+.ba-contact__container::before {
+    left:0;
+}
+
+.ba-contact__container::after {
+    right: 0;
+}
+
+
+.ba-contact__title {
+    position: absolute;
+    left: 34%;
+    top: 10px;
+    transform: translateY(-150%);
+    font-size: 2.125rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #3c3c3c;
+    text-align:  center;
+    line-height: 1.2;
+    letter-spacing: .2941em;
+}
+
+.ba-contact__article  {
+    display: block;
+    font-size: 1rem;
+    text-align:  center;
+    margin: 0 10.815rem 2rem 10.815rem;
+    line-height: 1.5em; 
+}
+
+.ba-about__btn  {
+    display: block;
+    font-size: 1rem;
+    text-align:  center;
+    margin-bottom: 1.75rem;
+    line-height: 1.5em;  
+}
+
+.ba-contact__btn {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1rem;
+    line-height: 1.5em; 
+    width: 24.75rem;
+    height: 2.6875rem;
+    background-color:#3c3c3c ; 
+    letter-spacing: .35em;
+    margin-bottom: 3rem;
+}
+
+/* About End */
+
+/* Footer */
+
+.ba-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4.125rem;
+}
+
+.ba-footer__logo {
+    height: 2.3125rem;
+    width: 2.1875rem;
+    border: transparent;
+    margin-right: 2rem;
+        }
+
+.ba-footer__info {
+    font-size: 0.875rem;
+}
